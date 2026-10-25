@@ -1,0 +1,17 @@
+policy:
+  account:
+    action: REDACT
+    retain_fields:
+      - user_id
+  profile:
+    action: DELETE
+  analytics:
+    action: ANONYMIZE
+  support_tickets:
+    action: REDACT
+  backup:
+    action: DELETE
+  legal_hold:
+    action: RETAIN
+  default:
+    action: DELETE

@@ -1,0 +1,9 @@
+project_name: Deletion Detective AI
+base_dir: .
+output_file: output.csv
+sample_output_file: dataset/sample_output.csv
+case_sort_key: case_id
+status_order:
+  - COMPLETE
+  - INCOMPLETE
+  - NOT_APPLICABLE

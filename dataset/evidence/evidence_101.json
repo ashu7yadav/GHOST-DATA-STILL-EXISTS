@@ -1,0 +1,7 @@
+{
+  "case_id": "case_101",
+  "system_id": "account_service",
+  "resource_id": "account_101",
+  "state": "PRESENT",
+  "event_time": "2024-04-11T00:00:00"
+}

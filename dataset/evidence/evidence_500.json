@@ -1,0 +1,7 @@
+{
+  "case_id": "case_500",
+  "system_id": "account_service",
+  "resource_id": "account_500",
+  "state": "ABSENT",
+  "event_time": "2025-05-15T00:00:00"
+}

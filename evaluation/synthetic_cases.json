@@ -1,0 +1,17 @@
+[
+  {
+    "case_id": "synthetic_case_01",
+    "expected_status": "COMPLETE",
+    "notes": "All required evidence confirms deletion and no active flows remain."
+  },
+  {
+    "case_id": "synthetic_case_02",
+    "expected_status": "INCOMPLETE",
+    "notes": "A record remains after the deletion request."
+  },
+  {
+    "case_id": "synthetic_case_03",
+    "expected_status": "NOT_APPLICABLE",
+    "notes": "No deletion request was authorized."
+  }
+]

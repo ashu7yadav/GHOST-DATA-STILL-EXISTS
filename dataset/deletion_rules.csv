@@ -1,0 +1,7 @@
+category,rule,required_action,retention
+account,remove direct identifiers,REDACT,not required
+profile,delete personal profile,DELETE,not required
+analytics,anonymize analytics,ANONYMIZE,not required
+support_tickets,redact pii from tickets,REDACT,ticket records remain
+backup,delete backup copies,DELETE,not required
+legal_hold,retain legal records,RETAIN,required
